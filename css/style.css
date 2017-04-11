@@ -1,0 +1,96 @@
+.container-fluid{
+  padding: 0px;
+  background-color: #e2e9e6;
+}
+
+body {
+  background-image: url(https://static.pexels.com/photos/45072/pexels-photo-45072.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin:0;
+  padding:0; 
+  position: relative;
+  font-family: Georgia, serif;
+}
+
+.content{
+  color: #e2e9e6;
+  font-size: 250%;
+  background: rgba(0,0,0,0.9);
+  opacity: 0.7;
+  height: auto;
+  border-style: solid;
+  border-width: medium;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  max-width:1000px;
+  margin-top: 4%;
+  margin-bottom: 100px;
+  padding: 2%;
+  
+}
+
+#quote{
+  padding:2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#author{
+  padding:2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+h1{
+  font-size: 150%;
+  padding: 1%;
+}
+
+button{
+  background-color: Black;
+  color: #e2e9e6;
+  font-size: 75%;
+  font-family: Georgia, serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+
+button:hover { 
+  color: White;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0.5, 0.5);
+}
+
+#btn{
+  float:right;
+}
+
+.fa-circle{
+  5px;
+}
+.fa-twitter{
+  color:#e2e9e6;
+  float:left;
+}
+.fa-heart{
+  color: #CDB7B5;
+}
+
+.fa-coffee{
+  color: #8B795E;
+}
+footer{
+  background-color: black;
+  color: DimGray;
+  padding: 0.5%;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  position: fixed;
+  bottom: 0px;
+  width:100%;
+  opacity: 0.9;
+}
